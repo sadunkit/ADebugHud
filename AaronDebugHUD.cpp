@@ -102,7 +102,7 @@ void AAaronDebugHUD::ToggleBasicHUD(const TArray<FString>& Strings, UWorld* Worl
 	}
 }
 
-FAutoConsoleCommandWithWorldAndArgs AbilitySystemToggleDebugHUDCommand(
+FAutoConsoleCommandWithWorldAndArgs AaronSystemsDebugHUDCommand(
 	TEXT("Aaron.DebugHud"),
 	TEXT("Toggles Drawing a basic debug HUD for Aaron Systems"),
 	FConsoleCommandWithWorldAndArgsDelegate::CreateStatic(AAaronDebugHUD::ToggleBasicHUD)
